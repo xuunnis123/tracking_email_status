@@ -1,1 +1,3 @@
 web: gunicorn mail.wsgi
+web: gunicorn app:app
+web: python manage.py
